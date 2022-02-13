@@ -171,3 +171,9 @@ footer.style = `
 `;
 
 alert(`Я оцениваю свою работу на 100 баллов (неуспела вовремя).. штрафую себя на 10 баллов`);
+
+let card2 = card.cloneNode(true); 
+wrapper.appendChild(card2); 
+
+let card3 = card.cloneNode(true); 
+wrapper.appendChild(card3);
